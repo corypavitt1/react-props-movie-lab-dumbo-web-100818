@@ -2,12 +2,12 @@
   "stats": {
     "suites": 4,
     "tests": 14,
-    "passes": 10,
+    "passes": 14,
     "pending": 0,
-    "failures": 4,
-    "start": "2019-02-12T17:18:02.241Z",
-    "end": "2019-02-12T17:18:02.292Z",
-    "duration": 51
+    "failures": 0,
+    "start": "2019-02-12T17:35:21.355Z",
+    "end": "2019-02-12T17:35:21.386Z",
+    "duration": 31
   },
   "tests": [
     {
@@ -50,52 +50,40 @@
       "fullTitle": "<MovieCard /> assigns a default prop of 'Unknown' for the title prop",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: Cannot read property 'title' of undefined\n    at Context.<anonymous> (test/1-MovieCard.test.js:15:35)",
-        "message": "Cannot read property 'title' of undefined"
-      }
+      "err": {}
     },
     {
       "title": "assigns a default prop of null for the IMDBRating prop",
       "fullTitle": "<MovieCard /> assigns a default prop of null for the IMDBRating prop",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: Cannot read property 'IMDBRating' of undefined\n    at Context.<anonymous> (test/1-MovieCard.test.js:19:35)",
-        "message": "Cannot read property 'IMDBRating' of undefined"
-      }
+      "err": {}
     },
     {
       "title": "assigns a default prop of ['No Genre(s) Found'] for the genres prop",
       "fullTitle": "<MovieCard /> assigns a default prop of ['No Genre(s) Found'] for the genres prop",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: Cannot read property 'genres' of undefined\n    at Context.<anonymous> (test/1-MovieCard.test.js:23:50)",
-        "message": "Cannot read property 'genres' of undefined"
-      }
+      "err": {}
     },
     {
       "title": "assigns a default prop of 'default' for the poster prop",
       "fullTitle": "<MovieCard /> assigns a default prop of 'default' for the poster prop",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: Cannot read property 'poster' of undefined\n    at Context.<anonymous> (test/1-MovieCard.test.js:27:35)",
-        "message": "Cannot read property 'poster' of undefined"
-      }
+      "err": {}
     },
     {
       "title": "uses the poster prop as a background image, rendering only the necessary HTML",
       "fullTitle": "<CardFront /> uses the poster prop as a background image, rendering only the necessary HTML",
-      "duration": 4,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "correctly renders the title prop",
       "fullTitle": "<CardBack /> correctly renders the title prop",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -109,61 +97,20 @@
     {
       "title": "renders 'No Rating Found' in an <h4> if the IMDBRating prop is null",
       "fullTitle": "<CardBack /> renders 'No Rating Found' in an <h4> if the IMDBRating prop is null",
-      "duration": 4,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "renders an <img> tag if the IMDBRating prop is valid",
       "fullTitle": "<CardBack /> renders an <img> tag if the IMDBRating prop is valid",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "assigns a default prop of 'Unknown' for the title prop",
-      "fullTitle": "<MovieCard /> assigns a default prop of 'Unknown' for the title prop",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: Cannot read property 'title' of undefined\n    at Context.<anonymous> (test/1-MovieCard.test.js:15:35)",
-        "message": "Cannot read property 'title' of undefined"
-      }
-    },
-    {
-      "title": "assigns a default prop of null for the IMDBRating prop",
-      "fullTitle": "<MovieCard /> assigns a default prop of null for the IMDBRating prop",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: Cannot read property 'IMDBRating' of undefined\n    at Context.<anonymous> (test/1-MovieCard.test.js:19:35)",
-        "message": "Cannot read property 'IMDBRating' of undefined"
-      }
-    },
-    {
-      "title": "assigns a default prop of ['No Genre(s) Found'] for the genres prop",
-      "fullTitle": "<MovieCard /> assigns a default prop of ['No Genre(s) Found'] for the genres prop",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: Cannot read property 'genres' of undefined\n    at Context.<anonymous> (test/1-MovieCard.test.js:23:50)",
-        "message": "Cannot read property 'genres' of undefined"
-      }
-    },
-    {
-      "title": "assigns a default prop of 'default' for the poster prop",
-      "fullTitle": "<MovieCard /> assigns a default prop of 'default' for the poster prop",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "TypeError: Cannot read property 'poster' of undefined\n    at Context.<anonymous> (test/1-MovieCard.test.js:27:35)",
-        "message": "Cannot read property 'poster' of undefined"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "renders at least one <MovieCard /> component",
@@ -201,16 +148,44 @@
       "err": {}
     },
     {
+      "title": "assigns a default prop of 'Unknown' for the title prop",
+      "fullTitle": "<MovieCard /> assigns a default prop of 'Unknown' for the title prop",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "assigns a default prop of null for the IMDBRating prop",
+      "fullTitle": "<MovieCard /> assigns a default prop of null for the IMDBRating prop",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "assigns a default prop of ['No Genre(s) Found'] for the genres prop",
+      "fullTitle": "<MovieCard /> assigns a default prop of ['No Genre(s) Found'] for the genres prop",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "assigns a default prop of 'default' for the poster prop",
+      "fullTitle": "<MovieCard /> assigns a default prop of 'default' for the poster prop",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
       "title": "uses the poster prop as a background image, rendering only the necessary HTML",
       "fullTitle": "<CardFront /> uses the poster prop as a background image, rendering only the necessary HTML",
-      "duration": 4,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "correctly renders the title prop",
       "fullTitle": "<CardBack /> correctly renders the title prop",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -224,14 +199,14 @@
     {
       "title": "renders 'No Rating Found' in an <h4> if the IMDBRating prop is null",
       "fullTitle": "<CardBack /> renders 'No Rating Found' in an <h4> if the IMDBRating prop is null",
-      "duration": 4,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "renders an <img> tag if the IMDBRating prop is valid",
       "fullTitle": "<CardBack /> renders an <img> tag if the IMDBRating prop is valid",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     }
